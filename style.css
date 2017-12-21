@@ -1,0 +1,36 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    background: #e2dfdf;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    margin-top: 30px;
+    background: #cff5fa;
+    border: none;
+    border-radius: 15px;    
+}
+button:hover {
+    background: #e8f9fc;
+    border: 2px solid #cff5fa;
+}
+button:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+.quote,
+.author,
+header,
+.tweet {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #454444;
+}
+.tweet {
+    color: blue;
+    margin-top: 30px;
+}
+
